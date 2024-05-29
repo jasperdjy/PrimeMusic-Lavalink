@@ -24,12 +24,11 @@ const { queueNames } = require("./commands/play");
 
 function initializePlayer(client) {
     const nodes = [
-        {
-         Host : xeon1-de.reyo.run
-        Port : 2561
-        Password : "freelavalinkserver"
-        Secure : false    
-
+            {
+          host: "lavalink.oryzen.xyz",
+          port: 80, 
+          password: "oryzen.xyz", 
+           secure: false
         },
     ];
 
