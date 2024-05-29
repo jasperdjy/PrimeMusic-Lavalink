@@ -25,10 +25,11 @@ const { queueNames } = require("./commands/play");
 function initializePlayer(client) {
     const nodes = [
         {
-         Host : ether.lunarnodes.xyz
-          Port : 6969
-          Password : "lunarnodes.xyz"
-          Secure : "false"
+         Host : xeon1-de.reyo.run
+        Port : 2561
+        Password : "freelavalinkserver"
+        Secure : false    
+
         },
     ];
 
